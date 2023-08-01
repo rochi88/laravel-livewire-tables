@@ -131,7 +131,7 @@ abstract class DataTableComponent extends Component
      *
      * @param null $id
      */
-    public function __construct($id = null)
+    public function mount($id = null)
     {
         parent::__construct($id);
 
@@ -211,9 +211,6 @@ abstract class DataTableComponent extends Component
     {
         return 'livewire-tables::stubs.modals';
     }
-
-    public function boot()
-    {}
 
     /**
      * @return mixed
