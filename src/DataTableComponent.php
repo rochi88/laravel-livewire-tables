@@ -133,7 +133,7 @@ abstract class DataTableComponent extends Component
      */
     public function mount($id = null)
     {
-        parent::__construct($id);
+        $this->id = $id;
 
         $theme = config('livewire-tables.theme');
 
