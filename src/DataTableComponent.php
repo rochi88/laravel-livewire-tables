@@ -212,6 +212,9 @@ abstract class DataTableComponent extends Component
         return 'livewire-tables::stubs.modals';
     }
 
+    public function mount()
+    {}
+
     /**
      * @return mixed
      */
