@@ -1,4 +1,4 @@
-<div>
+{{-- <div>
     @if ($paginator->hasPages())
         <nav role="navigation" aria-label="Pagination Navigation">
             <span>
@@ -18,7 +18,7 @@
             </span>
         </nav>
     @endif
-</div>
+</div> --}}
 
 <div>
     @if ($paginator->hasPages())
